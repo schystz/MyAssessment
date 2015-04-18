@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		039065841AE22A72003E0415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039065831AE22A72003E0415 /* AppDelegate.swift */; };
-		039065861AE22A72003E0415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039065851AE22A72003E0415 /* ViewController.swift */; };
+		039065861AE22A72003E0415 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039065851AE22A72003E0415 /* FirstViewController.swift */; };
 		039065891AE22A72003E0415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039065871AE22A72003E0415 /* Main.storyboard */; };
 		0390658B1AE22A72003E0415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0390658A1AE22A72003E0415 /* Images.xcassets */; };
 		0390658E1AE22A72003E0415 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0390658C1AE22A72003E0415 /* LaunchScreen.xib */; };
 		0390659A1AE22A72003E0415 /* MyAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039065991AE22A72003E0415 /* MyAssessmentTests.swift */; };
+		039065A41AE22E33003E0415 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039065A31AE22E33003E0415 /* SecondViewController.swift */; };
+		039065A61AE237BF003E0415 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039065A51AE237BF003E0415 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		0390657E1AE22A72003E0415 /* MyAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039065821AE22A72003E0415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		039065831AE22A72003E0415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		039065851AE22A72003E0415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		039065851AE22A72003E0415 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		039065881AE22A72003E0415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0390658A1AE22A72003E0415 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0390658D1AE22A72003E0415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		039065931AE22A72003E0415 /* MyAssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAssessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		039065981AE22A72003E0415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		039065991AE22A72003E0415 /* MyAssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAssessmentTests.swift; sourceTree = "<group>"; };
+		039065A31AE22E33003E0415 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		039065A51AE237BF003E0415 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				039065831AE22A72003E0415 /* AppDelegate.swift */,
-				039065851AE22A72003E0415 /* ViewController.swift */,
+				039065851AE22A72003E0415 /* FirstViewController.swift */,
+				039065A31AE22E33003E0415 /* SecondViewController.swift */,
+				039065A51AE237BF003E0415 /* ThirdViewController.swift */,
 				039065871AE22A72003E0415 /* Main.storyboard */,
 				0390658A1AE22A72003E0415 /* Images.xcassets */,
 				0390658C1AE22A72003E0415 /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039065861AE22A72003E0415 /* ViewController.swift in Sources */,
+				039065A41AE22E33003E0415 /* SecondViewController.swift in Sources */,
+				039065861AE22A72003E0415 /* FirstViewController.swift in Sources */,
+				039065A61AE237BF003E0415 /* ThirdViewController.swift in Sources */,
 				039065841AE22A72003E0415 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
